@@ -1,0 +1,30 @@
+{
+  "name": "constructor-word-guess",
+  "version": "1.0.0",
+  "description": "A CLI word guess game using inquirer.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Treudey/Word-Guess-Game.git"
+  },
+  "keywords": [
+    "node",
+    "inquirer",
+    "words",
+    "javascript",
+    "game",
+    "cli"
+  ],
+  "author": "Alex Treude",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Treudey/Word-Guess-Game/issues"
+  },
+  "homepage": "https://github.com/Treudey/Word-Guess-Game#readme",
+  "dependencies": {
+    "inquirer": "^6.2.2"
+  }
+}
