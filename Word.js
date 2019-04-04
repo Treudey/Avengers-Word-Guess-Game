@@ -17,7 +17,7 @@ class Word {
         let correctGuess = false;
         this.letterArr.forEach(el => { 
             if (el !== ' ') {
-                if (el.checkIfLetter(guessLetter)) {
+                if (el.checkLetter(guessLetter)) {
                     correctGuess = true;
                 }
             }

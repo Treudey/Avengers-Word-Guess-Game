@@ -9,8 +9,8 @@ class Letter {
         return this.isGuessed ? this.letter : this.blank;
     }
 
-    checkIfLetter(guessLetter) {
-        return guessLetter === this.letter ? this.isGuessed = true : false;
+    checkLetter(guessLetter) {
+        return guessLetter === this.letter.toLowerCase() ? this.isGuessed = true : false;
     }
 }
 
