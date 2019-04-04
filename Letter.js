@@ -10,7 +10,7 @@ class Letter {
     }
 
     checkIfLetter(guessLetter) {
-        return guessLetter === this.letter ? this.isGuessed = true : this.isGuessed;
+        return guessLetter === this.letter ? this.isGuessed = true : false;
     }
 }
 
