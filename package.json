@@ -4,7 +4,8 @@
   "description": "A CLI word guess game using inquirer.js",
   "main": "./assets/js/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./assets/js/index.js"
   },
   "repository": {
     "type": "git",

@@ -31,7 +31,9 @@ const getGuessLetter = () => {
     ]).then(inquirerResponse=> {
         // check if string entered is a letter
         const guessLetter = inquirerResponse.letter.toLowerCase();
-        if (guessLetter.length === 1 && guessLetter.match(/[a-z]/i)) {
+        if (guessLetter === 'exit') {
+            process.exit();
+        } else if (guessLetter.length === 1 && guessLetter.match(/[a-z]/i)) {
 
             // if the letter hasn't been guessed yet we deal with a correct/incorrect guess
             if (guessedLetters.includes(guessLetter)) {

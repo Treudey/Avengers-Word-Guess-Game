@@ -2,7 +2,16 @@
 
 Guess the Avenger in this CLI word guess game that uses the inquirer.js npm package
 
-![word-guess-demo](.assets/GIFs/word-guess-demo.gif)
+![word-guess-demo](./assets/GIFs/word-guess-demo.gif)
+
+**Link to full demo:** https://drive.google.com/file/d/19fSoQhlg5hB2cY5xpLiBry-oGuewjxZa/view?usp=sharing
+
+### Set Up
+
+* Download the repository from GitHub
+* Navigate to the directory containing the application in your terminal and simply run `npm install` to download the appropriate node modules files
+* Then, still in the terminal, simply type `npm start` to start the game
+* Type simply type `exit` at any time to exit the game
 
 ### Overview
 
