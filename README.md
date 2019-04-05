@@ -2,6 +2,8 @@
 
 Guess the Avenger in this CLI word guess game that uses the inquirer.js npm package
 
+![word-guess-demo](.assets/GIFs/word-guess-demo.gif)
+
 ### Overview
 
 A user is presented with a random Avenger to guess. They are prompted through inquirer to submit a letter and there guess is evaluated:

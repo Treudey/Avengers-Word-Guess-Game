@@ -5,7 +5,7 @@ let randomNum, currentWord, totalGuesses, superHeroList, guessedLetters;
 
 const gameInit = () => {
     console.log('Guess the Avenger! \n');
-    superHeroList = ['Gamora', 'Winter Soldier', 'Falcon'];
+    superHeroList = ['Black Panther', 'Captain America', 'Black Widow', 'Doctor Strange', 'Hawkeye', 'Spiderman', 'Vision', 'Scarlet Witch', 'Quicksilver', 'Iron Man', 'War Machine', 'Rocket Racoon', 'Gamora', 'Winter Soldier', 'Falcon'];
     gameReset();
 };
 
@@ -16,7 +16,6 @@ const gameReset = () => {
     randomNum = Math.floor(Math.random() * superHeroList.length);
     currentWord = new Word(superHeroList[randomNum].split(''));
     superHeroList.splice(randomNum, 1); 
-    console.log(superHeroList);
     console.log(currentWord.getWordAsString() + '\n');
     getGuessLetter();
 };
